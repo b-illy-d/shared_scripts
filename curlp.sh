@@ -10,7 +10,7 @@ done
 
 shift $((OPTIND-1))
 
-if [ -z "$DATA" ]; then
+if [ -z "$BODY" ]; then
   read -p "Body: " BODY
 fi
 
